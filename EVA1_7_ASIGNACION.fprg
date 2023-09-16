@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 07:34:40 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjBYOzIwMjMtMDktMTE7MDc6MjI6MDAgcC4gbS47Mjg2Mg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjBYOzIwMjMtMDktMTE7MDc6MzQ6NDAgcC4gbS47MTsyOTc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="va1" type="Integer" array="False" size=""/>
+            <declare name="va2" type="Integer" array="False" size=""/>
+            <declare name="suma" type="Integer" array="False" size=""/>
+            <assign variable="va1" expression="100"/>
+            <assign variable="va2" expression="200"/>
+            <assign variable="suma" expression="va1 + va2"/>
+            <output expression="va1" newline="True"/>
+            <output expression="va2" newline="True"/>
+            <output expression="suma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
